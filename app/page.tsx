@@ -4,11 +4,8 @@ import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from './page.module.css';
 import cringeImg from '../assets/images/cringe.avif';
-import { Form } from 'react-bootstrap';
+import { Form, Button, Spinner } from 'react-bootstrap';
 import { FormEvent, useState } from 'react';
-import Button from 'react-bootstrap/esm/Button';
-import Spinner from 'react-bootstrap/esm/Spinner';
-import { encode } from 'punycode';
 
 const inter = Inter({ subsets: ['latin'] });
 

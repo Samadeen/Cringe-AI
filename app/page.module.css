@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 50vw;
+  margin: auto;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  margin: 2rem 0;
+  width: 100%;
+  aspect-ratio: 12/7;
+}
+
+.mainImage {
+  object-fit: cover;
+  border-radius: 2rem;
+  box-shadow: 0 3px 8px rgba(0 0 0 / 24%);
+}
+
+.inputForm {
+  width: 100%;
+}
